@@ -36,7 +36,7 @@ alias push='git push'
 alias rs='bundle exec rails s'
 alias ws='bin/webpack-dev-server'
 alias wp='bin/webpack'
-alias feupd='yarn add eslint postcss postcss-scss prettier stylelint stylelint-config-recess-order stylelint-config-recommended stylelint-config-recommended-scss stylelint-config-standard stylelint-config-standard-scss stylelint-order stylelint-scss'
+alias update_packages='yarn add eslint postcss postcss-scss prettier stylelint stylelint-config-recess-order stylelint-config-recommended stylelint-config-recommended-scss stylelint-config-standard stylelint-config-standard-scss stylelint-order stylelint-scss'
 
 
 ## Switch to branch and update everything
