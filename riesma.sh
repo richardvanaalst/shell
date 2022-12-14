@@ -1,11 +1,11 @@
-#=== RIESMA
+### RIESMA
 
-#== Add to root shell config file
+## Add to root shell config file
 # export RVA="/Users/richard/.riesh"
 # source $RVA/riesma.sh
 
 
-#== Shell styles for echo prints
+## Shell styles for echo prints
 RESET="\033[0m"
 # BOLD="\033[1m"
 # UNBOLD="\033[21m"
@@ -23,7 +23,7 @@ GREY="\033[0;90m"
 WHITE="\033[0;97m"
 
 
-#== Aliasses
+## Aliasses
 alias by='bundle && yarn'
 alias db='bundle exec rails db:migrate'
 alias gco='git checkout'
@@ -39,7 +39,7 @@ alias wp='bin/webpack'
 alias feupd='yarn add eslint postcss postcss-scss prettier stylelint stylelint-config-recess-order stylelint-config-recommended stylelint-config-recommended-scss stylelint-config-standard stylelint-config-standard-scss stylelint-order stylelint-scss'
 
 
-#== Switch to branch and update everything
+## Switch to branch and update everything
 setup() {
   if [[ "$1" != "" ]]; then
     branch=$1
@@ -86,7 +86,7 @@ setup() {
 }
 
 
-#== branch=branch_name cap staging deploy
+## branch=branch_name cap staging deploy
 staging() {
   if [[ "$1" != "" ]]; then
     branch=$1
